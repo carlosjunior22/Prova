@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(231, 231, 231);
+}
+
+header {
+  gap: 50px;
+  display: flex;
+  background-color: gainsboro;
+}
+
+.img-div {
+  padding-left: 100px;
+  padding-top: 7px;
+}
+
+.img-div img {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.menu-list {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  height: 100px;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: rgb(102, 156, 156);
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.text-section {
+  margin-top: 100px;
+}
+
+.tittle {
+  margin-top: 60px;
+}
+
+.tittle h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(127, 185, 185);
+}
+
+.image-med-main {
+  width: 100%;
+  height: 500px;
+}
+
+.image-med {
+  background-image: url("./Atendimento.jpg");
+  height: 100%;
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+}
+
+.text-med-main {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.text-med {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-med h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: cadetblue;
+  margin-top: 20px;
+}
+
+.text-med p {
+  font-size: 1.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.default-text {
+  padding-top: 50px;
+}
+
+.default-text h2 {
+  color: cadetblue;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+
+.default-text p {
+  text-align: center;
+  font-size: 1.3rem;
+  padding-bottom: 50px;
+  color: rgb(94, 94, 94);
+}
+
+.service {
+  margin-bottom: 30px;
+}
+
+.service h2 {
+  color: cadetblue;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+
+.service p {
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+  color: rgb(94, 94, 94);
+}
+
+/*
+Estilizando um item especifico da pagina "Sobre"
+*/
+
+.specialty {
+  margin-bottom: 30px;
+}
+
+.specialty h2 {
+  color: cadetblue;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+
+.specialty p {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+  color: rgb(94, 94, 94);
+}
+
+/*
+Estilizando a pagina "horario"
+*/
+.time-text {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.time-text h1 {
+  color: cadetblue;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+
+.time-text p {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+  color: rgb(94, 94, 94);
+}
+
+.time table {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+  color: rgb(94, 94, 94);
+}
+
+/*
+Estilizando a pagina "contato"
+*/
+
+.contact-main h1 {
+  color: cadetblue;
+  text-align: center;
+  font-size: 2.5rem;
+  padding-bottom: 50px;
+}
+
+.contact-main p {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+  color: rgb(94, 94, 94);
+}
+
+.contact-main ul {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 1.3rem;
+  color: rgb(94, 94, 94);
+  list-style-type: none;
+}
+
+.form-main {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-div {
+  margin-top: 50px;
+  width: 50%;
+}
+
+.form-tag {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-tag label {
+  color: rgb(94, 94, 94);
+}
+
+.form-tag input {
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.form-tag textarea {
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.bnt-main {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  gap: 50px;
+}
+
+.bnt-main button {
+  height: 50px;
+  width: 150px;
+  color: #ffffff;
+  background-color: cadetblue;
+}
+
+/*Estilizando o footer*/
+.footer-main {
+  margin-top: 100px;
+  height: 200px;
+  background-color: gainsboro;
+}
+
+.footer-text {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text h1 {
+  color: cadetblue;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.icon-group {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.icon img {
+  height: 25px;
+}
